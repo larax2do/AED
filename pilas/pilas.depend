@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1568643241 source:/home/thales/proyectos/unsa/pilas/main.cpp
+	<iostream>
+
+1568647746 source:/home/thales/proyectos/unsa/pilas/src/PilaADT.cpp
+	"PilaADT.h"
+
+1568644087 /home/thales/proyectos/unsa/pilas/include/PilaADT.h
+
+1568647830 source:/home/thales/proyectos/unsa/pilas/src/PilaTipo.cpp
+	"PilaTipo.h"
+
+1568647818 /home/thales/proyectos/unsa/pilas/include/PilaTipo.h
+	"PilaADT.h"
+	<iostream>
+	<cassert>
+

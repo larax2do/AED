@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1567480993 source:/home/thales/proyectos/unsa/listas/main.cpp
+	<iostream>
+	"ListaDesordenada.h"
+	"ListaOrdenada.h"
+
+1567477018 source:/home/thales/proyectos/unsa/listas/src/IteradorLista.cpp
+
+1567477130 source:/home/thales/proyectos/unsa/listas/src/ListaEnlazadaTipo.cpp
+
+1567476812 source:/home/thales/proyectos/unsa/listas/src/NodoTipo.cpp
+
+1567477291 source:/home/thales/proyectos/unsa/listas/src/ListaDesordenada.cpp
+
+1567477917 /home/thales/proyectos/unsa/listas/include/ListaDesordenada.h
+	"ListaEnlazadaTipo.h"
+
+1567477865 /home/thales/proyectos/unsa/listas/include/ListaEnlazadaTipo.h
+	<cstddef>
+	<iostream>
+	"NodoTipo.h"
+	"IteradorLista.h"
+
+1567476910 /home/thales/proyectos/unsa/listas/include/NodoTipo.h
+
+1567477249 /home/thales/proyectos/unsa/listas/include/IteradorLista.h
+	"NodoTipo.h"
+
+1567478044 source:/home/thales/proyectos/unsa/listas/src/ListaOrdenada.cpp
+
+1567480963 /home/thales/proyectos/unsa/listas/include/ListaOrdenada.h
+	<iostream>
+	"ListaEnlazadaTipo.h"
+

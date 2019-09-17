@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1568648911 source:/home/thales/proyectos/unsa/colas/main.cpp
+	<iostream>
+
+1568651826 source:/home/thales/proyectos/unsa/colas/src/ColaADT.cpp
+	"ColaADT.h"
+
+1568651825 /home/thales/proyectos/unsa/colas/include/ColaADT.h
+
