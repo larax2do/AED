@@ -2,6 +2,7 @@
 //#include "ListaEnlazadaTipo.h"
 #include "ListaDesordenada.h"
 #include "ListaOrdenada.h"
+#include "ArrayListaTipo.h"
 
 using namespace std;
 
@@ -12,7 +13,8 @@ int main()
     //lista.insertarDelante(5);
     //lista.imprimir();
 
-    ListaOrdenada<int> lista1;
+    ArrayListaTipo<int> lista1(30);
+    ArrayListaTipo<int> lista2;
     lista1.insertar(3);
     lista1.insertar(4);
     lista1.insertar(5);
@@ -24,7 +26,9 @@ int main()
     lista1.insertar(999);
     lista1.insertar(4);
     lista1.insertar(66);
-    lista1.imprimir();
+    lista1.mostrar();
+    lista2=lista1;
+    lista2.mostrar();
     //NodoTipo<int> *nodito = new NodoTipo<int>(10,NULL);
     cout << "Hello world!" << endl;
     return 0;

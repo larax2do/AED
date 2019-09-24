@@ -36,9 +36,11 @@
 		</Compiler>
 		<Unit filename="include/ColaADT.h" />
 		<Unit filename="include/ColaTipo.h" />
+		<Unit filename="include/ListaColaTipo.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/ColaADT.cpp" />
 		<Unit filename="src/ColaTipo.cpp" />
+		<Unit filename="src/ListaColaTipo.cpp" />
 		<Extensions>
 			<code_completion />
 			<debugger />

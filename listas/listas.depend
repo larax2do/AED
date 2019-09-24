@@ -32,3 +32,43 @@
 	<iostream>
 	"ListaEnlazadaTipo.h"
 
+1569288893 source:/home/thales/proyectos/unsa/AED/listas/main.cpp
+	<iostream>
+	"ListaDesordenada.h"
+	"ListaOrdenada.h"
+
+1569288893 /home/thales/proyectos/unsa/AED/listas/include/ListaDesordenada.h
+	"ListaEnlazadaTipo.h"
+
+1569288893 /home/thales/proyectos/unsa/AED/listas/include/ListaEnlazadaTipo.h
+	<cstddef>
+	<iostream>
+	"NodoTipo.h"
+	"IteradorLista.h"
+
+1569288893 /home/thales/proyectos/unsa/AED/listas/include/NodoTipo.h
+
+1569288893 /home/thales/proyectos/unsa/AED/listas/include/IteradorLista.h
+	"NodoTipo.h"
+
+1569288893 /home/thales/proyectos/unsa/AED/listas/include/ListaOrdenada.h
+	<iostream>
+	"ListaEnlazadaTipo.h"
+
+1569288893 source:/home/thales/proyectos/unsa/AED/listas/src/IteradorLista.cpp
+
+1569288893 source:/home/thales/proyectos/unsa/AED/listas/src/ListaDesordenada.cpp
+
+1569288893 source:/home/thales/proyectos/unsa/AED/listas/src/ListaEnlazadaTipo.cpp
+
+1569288893 source:/home/thales/proyectos/unsa/AED/listas/src/ListaOrdenada.cpp
+
+1569288893 source:/home/thales/proyectos/unsa/AED/listas/src/NodoTipo.cpp
+
+1569364750 source:/home/thales/proyectos/unsa/AED/listas/src/ArrayListaTipo.cpp
+	"ArrayListaTipo.h"
+
+1569364924 /home/thales/proyectos/unsa/AED/listas/include/ArrayListaTipo.h
+	<iostream>
+	<cassert>
+
