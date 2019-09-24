@@ -1,0 +1,1 @@
+#include "ListaColaTipo.h"

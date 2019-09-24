@@ -7,3 +7,29 @@
 
 1568651825 /home/thales/proyectos/unsa/colas/include/ColaADT.h
 
+1569288893 source:/home/thales/proyectos/unsa/AED/colas/src/ColaADT.cpp
+	"ColaADT.h"
+
+1569288893 /home/thales/proyectos/unsa/AED/colas/include/ColaADT.h
+
+1569345800 source:/home/thales/proyectos/unsa/AED/colas/main.cpp
+	<iostream>
+	"ColaTipo.h"
+	"ListaColaTipo.h"
+
+1569290088 /home/thales/proyectos/unsa/AED/colas/include/ColaTipo.h
+	<iostream>
+	<cassert>
+	"ColaADT.h"
+	"ColaTipo.h"
+
+1569289981 source:/home/thales/proyectos/unsa/AED/colas/src/ColaTipo.cpp
+
+1569334775 source:/home/thales/proyectos/unsa/AED/colas/src/ListaColaTipo.cpp
+	"ListaColaTipo.h"
+
+1569345899 /home/thales/proyectos/unsa/AED/colas/include/ListaColaTipo.h
+	<iostream>
+	<cassert>
+	"ColaADT.h"
+
