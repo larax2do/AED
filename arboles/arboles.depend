@@ -1,11 +1,13 @@
 # depslib dependency file v1.0
-1569807837 source:/home/thales/proyectos/unsa/AED/arboles/main.cpp
+1569813495 source:/home/thales/proyectos/unsa/AED/arboles/main.cpp
 	<iostream>
-
-1569812855 source:/home/thales/proyectos/unsa/AED/arboles/src/ArbolBinBus.cpp
 	"ArbolBinBus.h"
 
-1569812881 /home/thales/proyectos/unsa/AED/arboles/include/ArbolBinBus.h
+1569851236 source:/home/thales/proyectos/unsa/AED/arboles/src/ArbolBinBus.cpp
+	"ArbolBinBus.h"
+
+1569860160 /home/thales/proyectos/unsa/AED/arboles/include/ArbolBinBus.h
 	<iostream>
 	<ostream>
+	<functional>
 
