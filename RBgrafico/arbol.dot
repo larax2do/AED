@@ -1,0 +1,14 @@
+digraph G{
+	graph [ordering="out"];
+2[style=filled, fillcolor=grey26];
+	2->1;
+	2->4;
+1[style=filled, fillcolor=grey26];
+4[style=filled, fillcolor=red];
+	4->3;
+	4->5;
+3[style=filled, fillcolor=grey26];
+5[style=filled, fillcolor=grey26];
+	5->6;
+6[style=filled, fillcolor=red];
+}
