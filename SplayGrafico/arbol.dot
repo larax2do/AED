@@ -1,10 +1,8 @@
 digraph G{
 	graph [ordering="out"];
-13;
-	13->11;
-11;
-	11->10;
-	11->12;
-10;
-12;
+100;
+null0[style=invis][color=black][label=""];
+	100->null0;
+null1[style=invis][color=black][label=""];
+	100->null1;
 }

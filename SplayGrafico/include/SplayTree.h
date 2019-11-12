@@ -84,7 +84,8 @@ class SplayTree
                 archivo << "Empty tree" << std::endl;
             else
             {
-                mostrar(raiz,archivo);
+                int  contador=0;
+                mostrar(raiz,archivo,contador);
             }
             archivo<<"}";
             archivo.close();
@@ -129,7 +130,7 @@ class SplayTree
                 {
                     nuevo->derecha=raiz->derecha;
                     nuevo->izquierda=raiz;
-                    raiz->izquierda=nodoNULO;
+                    raiz->derecha=nodoNULO;
                     raiz=nuevo;
                 }
                 else
@@ -183,7 +184,7 @@ class SplayTree
             delete t;
         }
     }
-    void mostrar(NodoBinario *t,std::fstream& archivo)const
+    void mostrar(NodoBinario *t,std::fstream& archivo,int &cont)const
     {
         if( t != nodoNULO )
         {
@@ -197,10 +198,25 @@ class SplayTree
                 archivo<<"\t"<< t->dato<<"->"<<t->derecha->dato<<";"<<std::endl;
             }
 
-            mostrar(t->izquierda,archivo);
+            if(t->izquierda==nodoNULO)
+            {
+                archivo<<"null"<<cont<<"[style=dashed][color=black][label=\"\"];"<<std::endl;
+                archivo<<"\t"<< t->dato<<"->"<<"null"<<cont<<";"<<std::endl;
+                cont++;
+            }
+            if(t->derecha==nodoNULO)
+            {
+                archivo<<"null"<<cont<<"[style=dashed][color=black][label=\"\"];"<<std::endl;
+                archivo<<"\t"<< t->dato<<"->"<<"null"<<cont<<";"<<std::endl;
+                cont++;
+            }
 
-            mostrar(t->derecha,archivo);
+
+            mostrar(t->izquierda,archivo,cont);
+
+            mostrar(t->derecha,archivo,cont);
         }
+
     }
 
     NodoBinario* clonar(NodoBinario* t)const

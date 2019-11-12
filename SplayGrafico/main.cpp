@@ -33,6 +33,24 @@ static void agregar (GtkWidget *widget, struct datis *data)
 
 }
 
+static void buscar (GtkWidget *widget, struct datis *data)
+{
+    //(GtkLabel*)by_ptr->widgets.label
+    const gchar *buffer=gtk_entry_get_text(GTK_ENTRY((GObject *)data->box));
+    //std::string testt="1000";
+    std::string temp(buffer);
+    bool busqueda=data->arbo.contiene(temp);
+    data->arbo.mostrar();
+
+    gtk_image_set_from_file (GTK_IMAGE(data->img),"ARBOL.png");
+
+    //data->img = gtk_image_new_from_file ("ARBOL.png");
+    g_print (buffer);
+    //gtk_paned_add2(GTK_PANED(data->gri),GTK_WIDGET(data->img));
+    //gtk_widget_show(GTK_WIDGET(data->img));
+
+}
+
 static void quitar (GtkWidget *widget, struct datis *data)
 {
     //(GtkLabel*)by_ptr->widgets.label
@@ -121,6 +139,9 @@ int main (int argc, char *argv[])
 
     button= gtk_builder_get_object (builder, "button2");
     g_signal_connect (button, "clicked", G_CALLBACK (quitar), datos);
+
+    button =gtk_builder_get_object(builder, "button3");
+    g_signal_connect(button,"clicked",G_CALLBACK(buscar),datos);
 
     gtk_builder_connect_signals(builder,NULL);
     g_object_unref(G_OBJECT(builder));

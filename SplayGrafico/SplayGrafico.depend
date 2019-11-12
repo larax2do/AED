@@ -1,13 +1,13 @@
 # depslib dependency file v1.0
 1573571451 source:/home/thales/proyectos/unsa/AED/SplayGrafico/src/SplayTree.cpp
 
-1573581111 source:/home/thales/proyectos/unsa/AED/SplayGrafico/main.cpp
+1573591189 source:/home/thales/proyectos/unsa/AED/SplayGrafico/main.cpp
 	<stdlib.h>
 	<gtk/gtk.h>
 	"SplayTree.h"
 	<string>
 
-1573581592 /home/thales/proyectos/unsa/AED/SplayGrafico/include/SplayTree.h
+1573593978 /home/thales/proyectos/unsa/AED/SplayGrafico/include/SplayTree.h
 	<utility>
 	<fstream>
 
