@@ -1,0 +1,4 @@
+digraph ll{
+	node [shape=record];
+	nodo6[style=filled, label="{{1|12|124|1245|23}|{1|2|3|4|5}}"];
+}
